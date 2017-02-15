@@ -3,7 +3,7 @@
 usage() {
     echo ""
     echo "需要命令参数："
-    echo "./apkHack <xxx.apk>"
+    echo "./apkHack.sh <xxx.apk>"
     echo ""
     exit 255
 }
@@ -29,3 +29,5 @@ do
   java -jar tools/procyon-decompiler-0.5.30.jar -jar output/tmp/$file.jar -o output/$file-src/
 done
 rm -r output/tmp
+
+echo "ApkHack success!!"
