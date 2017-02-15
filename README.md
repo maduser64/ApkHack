@@ -8,4 +8,5 @@ ApkHack can turn Android APK into java source code and resource files including 
 ./apkHack.sh xxx.apk
 
 The results will be in the output dir like below:
+
  ![image](https://github.com/hello2mao/ApkHack/raw/master/pic/result.png)
